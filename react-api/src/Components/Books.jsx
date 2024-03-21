@@ -36,8 +36,7 @@ function Books(){
                             <img src={book.imageLinks.smallThumbnail} alt="book image" />
                             <p>{book.description}</p>
                         </div>
-                        <h5>{book.authors.join(" ")}</h5>
-                        
+                        <h5>{book.authors.join(" ")}</h5>                        
                         <hr />
                     </div>
                 ))
